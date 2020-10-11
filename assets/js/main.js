@@ -26,11 +26,13 @@ const counterObserver = new IntersectionObserver((entries, observer) => {
         updateCount();
       })
     } else {
-      // uncomment this if u want animate the numbers
-      // every times appear on screen.
-      // numbers.forEach(number => {
-      //   number.innerText = 0;
-      // })
+      // Comment on the following lines if you only want to
+      // animate numbers the first time they appear on the screen.
+      numbers.forEach(number => {
+        number.innerText = 0;
+      })
+
+
     }
 
   })

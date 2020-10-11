@@ -1,0 +1,27 @@
+#contact {
+  --color-primary: #ffe600;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  h2 {
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    line-height: 1.8;
+  }
+
+  a.btn {
+    color: #000;
+    font-size: small;
+    padding: 8px 20px;
+    background-color: lightblue;
+    margin: 3rem auto;
+  }
+
+  .btn-primary {
+    margin-top: auto;
+    background-color: var(--color-primary) !important;
+  }
+}

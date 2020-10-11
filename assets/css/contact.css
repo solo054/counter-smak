@@ -1,0 +1,33 @@
+#contact {
+  --color-primary: #ffe600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact h2 {
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  line-height: 1.8;
+}
+
+#contact a.btn {
+  color: #000;
+  font-size: small;
+  padding: 8px 20px;
+  background-color: lightblue;
+  margin: 3rem auto;
+}
+
+#contact .btn-primary {
+  margin-top: auto;
+  background-color: var(--color-primary) !important;
+}
+/*# sourceMappingURL=contact.css.map */
